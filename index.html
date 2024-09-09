@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+ 
+</head>
+<body>
+<div class="outer-container">
+<div class="about-container">
+  <div class="game-title">Rock Paper Scissors</div>
+  <div class="score-box">
+    <div class="score-title">
+      Score
+    </div>
+    <span class="score-number">0</span>
+  </div>
+</div>
+ <div class="game">
+    <div class="paper logo">
+      <img src="images/icon-paper.svg" alt="">
+    </div>
+
+    <div class="scissors logo">
+      <img src="images/icon-scissors.svg" alt="">
+    </div>
+    
+    <div class="rock logo">
+      <img src="images/icon-rock.svg" alt="">
+    </div>
+
+ </div>
+
+ <div class="game-result hidden">
+  <div class="user-choice choice">
+   <div class="text">
+    You Picked
+   </div>
+  <div class="user-chosen-logo logo">
+    <img src="" class="user-chosen-image" alt="">
+  </div>
+ </div>
+
+  <div class="lose-box box">
+  <div class="lost-text">You Lose</div>
+  <button class="play-again-button">Play Again</button>
+ </div>
+
+
+ <div class="win-box box">
+  <div class="lost-text">You Win</div>
+  <button class="play-again-button">Play Again</button>
+ </div>
+ 
+
+ <div class="house-choice choice">
+  <div class="text">
+   The House Picked
+  </div>
+ <div class="house-chosen-logo logo ">
+   <img src="" class="house-chosen-image" alt="">
+ </div>
+</div>
+ </div>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
