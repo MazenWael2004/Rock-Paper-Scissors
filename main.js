@@ -36,8 +36,8 @@ $(".logo").click(function(){
     var userimagechosen = $(".user-chosen-image");
     var houseimagechosen = $(".house-chosen-image");
 
-    houseimagechosen.attr("src","images/icon-"+housechoice+".svg");
-    userimagechosen.attr("src","images/icon-"+userchoice+".svg");
+    houseimagechosen.attr("src","icon-"+housechoice+".svg");
+    userimagechosen.attr("src","icon-"+userchoice+".svg");
 
     $(".user-chosen-logo").addClass(userchoice);
     $(".house-chosen-logo").addClass(housechoice);
